@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Swatches</title>
+    <style>
+
+      body {
+        display: grid;
+        max-width: fit-content;
+        margin-inline: auto;
+        padding: 10rem 2rem;
+      }
+
+      .swatch-container {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .swatch {
+        width: 100px;
+        height: 100px;
+      }
+      .swatch-1 {
+        background-color: #AA47F5;
+      }
+      .swatch-2 {
+        background-color: #76B9FA;
+      }
+      .swatch-3 {
+        background-color: #A2DADF;
+      }
+      .swatch-4 {
+        background-color: #DF8DCD;
+      }
+      .swatch-5 {
+        background-color: #E2C9F5;
+      }
+      .swatch-6 {
+        background-color: hsl(172.7,57.8%,39%);
+      }
+      .swatch-7 {
+        background-color: hsla(0, 0%, 10%, 1);
+      }
+      .swatch-8 {
+        background-color: hsla(0, 0%, 100%, 1);
+        outline: 1px solid black;
+        outline-offset: -1px;
+      }
+      .swatch-9 {
+        background-color: hsla(0, 0%, 40%, 1);
+        outline: 1px solid black;
+        outline-offset: -1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="swatch-container">
+      <div class="swatch swatch-1"></div>
+      <div class="swatch swatch-2"></div>
+      <div class="swatch swatch-3"></div>
+      <div class="swatch swatch-4"></div>
+      <div class="swatch swatch-5"></div>
+      <div class="swatch swatch-6"></div>
+      <div class="swatch swatch-7"></div>
+      <div class="swatch swatch-8"></div>
+      <div class="swatch swatch-9"></div>
+    </div>
+  </body>
+</html>
